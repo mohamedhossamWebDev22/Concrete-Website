@@ -19,22 +19,22 @@ import Projects from './pages/Projects.jsx';
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <App/>,
+    element: <App />,
     errorElement: <h1>Error 404</h1>,
   },
   {
     path: "/about",
-    element: <About/>,
+    element: <About />,
     errorElement: <h1>Error 404</h1>,
   },
   {
     path: "/services",
-    element: <Services/>,
+    element: <Services />,
     errorElement: <h1>Error 404</h1>,
   },
   {
     path: "/projects",
-    element: <Projects/>,
+    element: <Projects />,
     errorElement: <h1>Error 404</h1>,
   },
 ]);
